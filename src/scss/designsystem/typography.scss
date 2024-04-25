@@ -1,1 +1,55 @@
 
+/* Alternativ overskrift for H1 - ekstra stor */
+.typographyMobileH1Feature 
+{ 
+  
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 121%;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+.typographyMobileLabel 
+{ 
+  
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+/* Alternativ overskrift for H1 - ekstra stor */
+@mixin typographyMobileH1Feature 
+{ 
+  
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 121%;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+@mixin typographyMobileLabel 
+{ 
+  
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
